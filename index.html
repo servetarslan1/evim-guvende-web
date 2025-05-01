@@ -4,14 +4,69 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Evim Güvende</title>
+    <title>Evim Güvende | Deprem Hasar Analizi</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
-<body style="font-family: sans-serif; padding: 2rem; text-align: center; background-color: #F9F9F9;">
-    <h1 style="color: #0A2342;">Evim Güvende</h1>
-    <p>Yapay Zeka Destekli Deprem Hasar Tespit Uygulaması</p>
-    <p>Kullanıcılar bina bilgilerini girer, görselleri yükler ve AI ile risk raporu alır.</p>
-    <a href="privacy-policy.html" style="color: #0A2342; text-decoration: underline;">Gizlilik Politikamızı okuyun</a>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html" class="nav-brand">
+                    <img src="images/logo.png" alt="Evim Güvende Logo" class="logo">
+                    Evim Güvende
+                </a>
+            </li>
+            <div class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="privacy-policy.html">Gizlilik Politikası</a></li>
+                <li><a href="terms.html">Kullanım Şartları</a></li>
+                <li class="mobile-cta">
+                    <a href="#download" class="cta-button">Uygulamayı İndir</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <button class="menu-toggle" aria-label="Menüyü Aç">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <header>
+        <h1>Evim Güvende</h1>
+        <p class="hero-text">Yapay zeka destekli deprem hasar analiziyle yapınızın güvenliğini hemen kontrol edin.</p>
+        <a href="#download" class="cta-button">Uygulamayı İndir</a>
+    </header>
+
+    <main>
+        <div class="features">
+            <div class="feature-card">
+                <h3>Hızlı Analiz</h3>
+                <p>Binanızın fotoğraflarını yükleyin, yapay zeka teknolojimiz saniyeler içinde analiz sonucunu size sunsun.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Güvenilir Sonuçlar</h3>
+                <p>Gelişmiş yapay zeka modelimiz, binlerce örnek üzerinde eğitilmiş olup güvenilir sonuçlar sunar.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Kolay Kullanım</h3>
+                <p>Kullanıcı dostu arayüzümüz sayesinde teknik bilgiye gerek kalmadan analiz yapabilirsiniz.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Evim Güvende. Tüm hakları saklıdır.</p>
+        <div class="footer-links">
+            <a href="about.html">Hakkımızda</a>
+            <a href="privacy-policy.html">Gizlilik Politikası</a>
+            <a href="terms.html">Kullanım Şartları</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
